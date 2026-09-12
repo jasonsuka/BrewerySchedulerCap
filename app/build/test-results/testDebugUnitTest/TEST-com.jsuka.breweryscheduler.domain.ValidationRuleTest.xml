@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jsuka.breweryscheduler.domain.ValidationRuleTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-09-12T00:32:55" hostname="DESKTOP-3J6TJ5M" time="0.019">
+  <properties/>
+  <testcase name="qualification held for the position passes" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="a certification with no expiration date throws for the validator to catch" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.002"/>
+  <testcase name="staying inside the home department moves nobody and passes" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="shift ending one minute past the availability window fails" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.007"/>
+  <testcase name="a qualification never expires so the rule passes it through" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="a certification expiring in the future passes" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.0"/>
+  <testcase name="qualification earned after the shift date is not yet held" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.002"/>
+  <testcase name="an employee with no home department cannot strand one" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="holding a different credential does not qualify for this position" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="shift exactly filling the availability window passes at the boundary" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <testcase name="a shift that ends exactly when another begins does not overlap" classname="com.jsuka.breweryscheduler.domain.ValidationRuleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

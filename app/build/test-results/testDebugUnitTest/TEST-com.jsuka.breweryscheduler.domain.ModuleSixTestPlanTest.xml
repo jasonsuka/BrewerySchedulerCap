@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-09-12T00:32:55" hostname="DESKTOP-3J6TJ5M" time="0.142">
+  <properties/>
+  <testcase name="certification with no expiration date becomes a conflict rather than a crash" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.098"/>
+  <testcase name="employee holding no qualification for the position fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.004"/>
+  <testcase name="certification expiring on the shift date passes at the boundary" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.0"/>
+  <testcase name="an assignment on a different day does not count as an overlap" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.002"/>
+  <testcase name="certification expiring the day before the shift fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.011"/>
+  <testcase name="employee already assigned to an overlapping shift fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.002"/>
+  <testcase name="employee unavailable for the shift window fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.001"/>
+  <testcase name="qualified and available employee on a matching shift is valid" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.001"/>
+  <testcase name="employee with no availability submitted for that day fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.001"/>
+  <testcase name="reassignment leaving the home department at its minimum passes" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.0"/>
+  <testcase name="an employee failing several rules has all of them reported" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.015"/>
+  <testcase name="reassignment leaving the home department one below its minimum fails" classname="com.jsuka.breweryscheduler.domain.ModuleSixTestPlanTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

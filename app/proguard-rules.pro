@@ -1,0 +1,1 @@
+-keep class com.jsuka.breweryscheduler.data.local.entity.** { *; }
